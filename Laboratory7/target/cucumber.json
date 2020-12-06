@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-06T14:09:07.225Z",
+        "line": 3,
+        "name": "Website header exists",
+        "description": "",
+        "id": "google-search;website-header-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11900075300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open google website",
+            "match": {
+              "location": "steps.SearchSteps.i_open_google_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1572676100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for computer",
+            "match": {
+              "location": "steps.SearchSteps.i_search_for_computer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443525100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Header should exits",
+            "match": {
+              "location": "steps.SearchSteps.validate_that_the_Facebook_age_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
+    "tags": []
+  }
+]
